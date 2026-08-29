@@ -319,91 +319,30 @@ with col3:
 
 # =========================================================
 # =========================================================
-# PHẦN 3: KINH NGHIỆM LÀM VIỆC
+# KINH NGHIỆM LÀM VIỆC
 # =========================================================
 
-st.markdown(
-    '<div class="section-title">KINH NGHIỆM LÀM VIỆC</div>',
-    unsafe_allow_html=True
-)
+st.markdown("## KINH NGHIỆM LÀM VIỆC")
+st.divider()
 
-st.markdown(
-    """
-    <div style="
-        position: relative;
-        border-left: 3px solid #777777;
-        margin-left: 15px;
-        padding-left: 30px;
-        padding-bottom: 10px;
-    ">
+col_time, col_content = st.columns([1, 3])
 
-        <!-- Chấm đỏ -->
-        <div style="
-            position: absolute;
-            left: -9px;
-            top: 3px;
-            width: 12px;
-            height: 12px;
-            background-color: #c6283d;
-            border-radius: 50%;
-        "></div>
+with col_time:
+    st.markdown("🔴 **03/2025 - 04/2026**")
 
-        <!-- Thời gian -->
-        <div style="
-            font-size: 16px;
-            font-weight: bold;
-            margin-bottom: 12px;
-        ">
-            03/2025 - 04/2026
-        </div>
-
-        <!-- Công ty -->
-        <div style="
-            font-size: 17px;
-            font-weight: bold;
-            margin-bottom: 12px;
-        ">
-            Doanh nghiệp tư nhân Thắt lưng giá tốt
-        </div>
-
-        <!-- Vị trí -->
-        <div style="
-            font-size: 16px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        ">
-            Nhân viên tư vấn và chăm sóc khách hàng
-        </div>
-
-        <!-- Nội dung -->
-        <div style="
-            font-size: 15px;
-            line-height: 1.6;
-        ">
-
-            <div style="margin-bottom: 8px;">
-                • Liên hệ tệp +1000 khách hàng tiềm năng và tư vấn
-                khách hàng sử dụng các sản phẩm.
-            </div>
-
-            <div style="margin-bottom: 8px;">
-                • Tiếp nhận và xử lý các yêu cầu của khách hàng
-                về sản phẩm.
-            </div>
-
-            <div>
-                • Chăm sóc khách hàng cũ, hỗ trợ giải đáp mọi thắc mắc
-                của khách hàng đối với sản phẩm đang sử dụng.
-            </div>
-
-        </div>
-
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
+with col_content:
+    st.markdown("### Doanh nghiệp tư nhân Thắt lưng giá tốt")
+    
+    st.markdown("**Nhân viên tư vấn và chăm sóc khách hàng**")
+    
+    st.markdown("""
+    - Liên hệ tệp **+1000 khách hàng tiềm năng** và tư vấn khách hàng sử dụng các sản phẩm.
+    
+    - Tiếp nhận và xử lý các yêu cầu của khách hàng về sản phẩm.
+    
+    - Chăm sóc khách hàng cũ, hỗ trợ giải đáp mọi thắc mắc của khách hàng đối với sản phẩm đang sử dụng.
+    """)
+    
 # =========================================================
 # PHẦN 4: KỸ NĂNG + NGƯỜI THAM KHẢO
 # =========================================================
