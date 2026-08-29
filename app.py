@@ -318,6 +318,7 @@ with col3:
 
 
 # =========================================================
+# =========================================================
 # PHẦN 3: KINH NGHIỆM LÀM VIỆC
 # =========================================================
 
@@ -328,37 +329,69 @@ st.markdown(
 
 st.markdown(
     """
-    <div class="timeline">
+    <div style="
+        position: relative;
+        border-left: 3px solid #777777;
+        margin-left: 15px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    ">
 
-        <div class="dot"></div>
+        <!-- Chấm đỏ -->
+        <div style="
+            position: absolute;
+            left: -9px;
+            top: 3px;
+            width: 12px;
+            height: 12px;
+            background-color: #c6283d;
+            border-radius: 50%;
+        "></div>
 
-        <div class="experience-date">
+        <!-- Thời gian -->
+        <div style="
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        ">
             03/2025 - 04/2026
         </div>
 
-        <br>
-
-        <div class="company">
+        <!-- Công ty -->
+        <div style="
+            font-size: 17px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        ">
             Doanh nghiệp tư nhân Thắt lưng giá tốt
         </div>
 
-        <br>
+        <!-- Vị trí -->
+        <div style="
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        ">
+            Nhân viên tư vấn và chăm sóc khách hàng
+        </div>
 
-        <div class="content">
+        <!-- Nội dung -->
+        <div style="
+            font-size: 15px;
+            line-height: 1.6;
+        ">
 
-            <b>Nhân viên tư vấn và chăm sóc khách hàng</b>
-
-            <div class="bullet">
+            <div style="margin-bottom: 8px;">
                 • Liên hệ tệp +1000 khách hàng tiềm năng và tư vấn
                 khách hàng sử dụng các sản phẩm.
             </div>
 
-            <div class="bullet">
+            <div style="margin-bottom: 8px;">
                 • Tiếp nhận và xử lý các yêu cầu của khách hàng
                 về sản phẩm.
             </div>
 
-            <div class="bullet">
+            <div>
                 • Chăm sóc khách hàng cũ, hỗ trợ giải đáp mọi thắc mắc
                 của khách hàng đối với sản phẩm đang sử dụng.
             </div>
